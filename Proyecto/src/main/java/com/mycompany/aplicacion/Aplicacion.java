@@ -23,5 +23,8 @@ public class Aplicacion {
         empleado2.setNombre("rayan");
         System.out.println(empleado2.getNombre());
         
+        Empresa empresa2 =new Empresa("celema", "manizales", 323300184, 170001);
+        System.out.println(empresa2.getNombreEmpresa()+""+ empresa2.getDireccion()+""+empresa2.getTelefono()+""+ "nit"+ empresa2.getNit());
+        
     }
 }
