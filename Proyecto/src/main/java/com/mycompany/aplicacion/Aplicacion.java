@@ -18,5 +18,10 @@ public class Aplicacion {
         
         Empresa empresa1 =new Empresa("colanta", "medellin", 5620956, 900619011);
         System.out.println(empresa1.getNombreEmpresa()+""+ empresa1.getDireccion()+""+empresa1.getTelefono()+""+ "nit"+ empresa1.getNit());
+        
+        Empleado empleado2 = new Empleado();
+        empleado2.setNombre("rayan");
+        System.out.println(empleado2.getNombre());
+        
     }
 }
